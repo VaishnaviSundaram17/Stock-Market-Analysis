@@ -82,3 +82,4 @@ if st.sidebar.button("Fetch Data"):
                         st.error(f"⚠️ Error fetching fundamentals: {e}")
         except Exception as e:
             st.error(f"⚠️ Error fetching data: {e}")
+
